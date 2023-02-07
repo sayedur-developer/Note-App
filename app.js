@@ -10,7 +10,6 @@ const port = 5000 || process.env.PORT;
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
-
 //static files
 app.use(express.static('public'));
 
